@@ -6,3 +6,5 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 #    # smth smth
 #end
 alias dotfiles='/usr/bin/git --git-dir=$HOME/github/dotfiles/ --work-tree=$HOME'
+alias thesis='cd ~/Documentos/finalthesisphdstuttgart'
+alias defense='cd ~/Documentos/germandefense'

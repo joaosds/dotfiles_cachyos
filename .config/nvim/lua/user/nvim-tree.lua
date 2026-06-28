@@ -55,12 +55,7 @@ nvim_tree.setup({
   },
 
   diagnostics = {
-    enable = true,         -- show LSP error/warning icons next to files
-    icons = {
-      error   = "",
-      warning = "",
-      hint    = "",
-    },
+    enable = false,        -- disabled: sign conflict with LSP gutter diagnostics
   },
 
   view = {
