@@ -45,3 +45,21 @@ Then install LSP servers inside nvim:
 
 ### 6. Install Tmux plugins
 Inside a tmux session press `Ctrl+T` then `Shift+I`.
+
+## Updating dotfiles
+
+After making changes to any config file:
+
+```bash
+dotfiles add -u
+dotfiles commit -m "describe what changed"
+dotfiles push
+```
+
+To track a new file that wasn't previously added:
+
+```bash
+dotfiles add ~/.config/nvim/lua/user/newfile.lua
+dotfiles commit -m "add new file"
+dotfiles push
+```

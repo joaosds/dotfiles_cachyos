@@ -1,3 +1,8 @@
+-- disable unused providers to suppress checkhealth warnings
+vim.g.loaded_perl_provider = 0
+vim.g.loaded_ruby_provider = 0
+vim.g.loaded_node_provider = 0
+
 require("user.options")      -- core vim settings (line numbers, tabs, clipboard, etc.)
 require("user.keymaps")      -- custom keybindings and leader key
 require("user.plugins")      -- plugin manager (lazy.nvim) and all plugin declarations
